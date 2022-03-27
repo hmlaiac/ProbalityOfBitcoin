@@ -3,8 +3,8 @@
 if __name__ == '__main__':
     import math
     target = 0.9
-
-    a = 1.0/(16**5)
+    k = 5 # k is the length of leading zeros
+    a = 1.0/(16**k)
     r = 1.0 - a
     print(r)
     print(a)
