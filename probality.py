@@ -11,4 +11,4 @@ if __name__ == '__main__':
     ans = 1.0-target/a*(1-r)
     print(math.log(r))
     result = math.log(ans)/ math.log(r)
-    print('The result is %d'%(result+1))
+    print('The result is %f'%(result+1))
